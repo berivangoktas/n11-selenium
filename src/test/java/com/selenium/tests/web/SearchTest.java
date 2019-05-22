@@ -2,7 +2,6 @@ package com.selenium.tests.web;
 
 import com.selenium.annotations.Description;
 import com.selenium.context.base.AbstractN11Test;
-import com.selenium.pages.LoginPage;
 import com.selenium.pages.SearchPage;
 import org.junit.Assert;
 import org.junit.Before;
