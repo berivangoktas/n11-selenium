@@ -1,0 +1,21 @@
+2019-05-22 13:09:36 INFO  DefaultTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-05-22 13:09:36 INFO  DefaultTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6895a785, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@184f6be2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@56aac163]
+2019-05-22 13:09:36 INFO  GenericApplicationContext:590 - Refreshing org.springframework.context.support.GenericApplicationContext@27f723: startup date [Wed May 22 13:09:36 EET 2019]; root of context hierarchy
+2019-05-22 13:09:37 INFO  AbstractWebTest:31 - ====> TEST STARTED {testBookSearch (SearchTest)}
+2019-05-22 13:09:37 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : firefox
+2019-05-22 13:09:38 INFO  AbstractWebTest:43 - ====> TEST FAILED {testBookSearch (SearchTest)}
+2019-05-22 13:09:38 INFO  AbstractWebTest:49 - ====> TEST FINISHED {testBookSearch (SearchTest)}
+2019-05-22 13:09:38 INFO  GenericApplicationContext:993 - Closing org.springframework.context.support.GenericApplicationContext@27f723: startup date [Wed May 22 13:09:36 EET 2019]; root of context hierarchy
+2019-05-22 13:10:06 INFO  DefaultTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-05-22 13:10:06 INFO  DefaultTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6895a785, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@184f6be2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@56aac163]
+2019-05-22 13:10:06 INFO  GenericApplicationContext:590 - Refreshing org.springframework.context.support.GenericApplicationContext@27f723: startup date [Wed May 22 13:10:06 EET 2019]; root of context hierarchy
+2019-05-22 13:10:07 INFO  AbstractWebTest:31 - ====> TEST STARTED {testBookSearch (SearchTest)}
+2019-05-22 13:10:07 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : firefox
+2019-05-22 13:10:10 INFO  FirefoxDriverManagerWeb:37 - =================================================================
+2019-05-22 13:10:10 INFO  FirefoxDriverManagerWeb:38 - =====> This Execute Session ID --> 3ff23a8a-6a1e-554c-a1bd-6e9941f37ac7
+2019-05-22 13:10:10 INFO  VideoRecorder:37 - Creating Directory : /Users/enes.aydin/n11-selenium/target/test-scenario-video
+2019-05-22 13:10:11 INFO  TestUserAccountManager:46 - Test User -----> enes-99 
+2019-05-22 13:10:26 INFO  SearchTest:53 - Product Price --> US $27.50
+2019-05-22 13:10:35 INFO  AbstractWebTest:43 - ====> TEST FAILED {testBookSearch (SearchTest)}
+2019-05-22 13:10:35 INFO  AbstractWebTest:49 - ====> TEST FINISHED {testBookSearch (SearchTest)}
+2019-05-22 13:10:35 INFO  GenericApplicationContext:993 - Closing org.springframework.context.support.GenericApplicationContext@27f723: startup date [Wed May 22 13:10:06 EET 2019]; root of context hierarchy
