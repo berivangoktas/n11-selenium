@@ -11,12 +11,16 @@ import java.util.concurrent.TimeUnit;
 
 public abstract class AbstractSeleniumTest extends DriverManager implements Commons
 {
+    protected static final int DEFAULT_SLEEP = 1;
+    protected static final int DEFAULT_MEDIUM_SLEEP = 5;
+    protected static final int DEFAULT_LARGE_SLEEP = 10;
 
     @Override
     public void navigateToURL(UrlFactory url)
     {
         driver.manage().timeouts().pageLoadTimeout(configuration.getPageLoadTimeout(), TimeUnit.MINUTES);
         driver.navigate().to(url.pageUrl);
+        sleep(DEFAULT_SLEEP);
     }
 
     @Override
@@ -59,6 +63,19 @@ public abstract class AbstractSeleniumTest extends DriverManager implements Comm
     public String getText(WebElement element)
     {
         return element.getText();
+    }
+
+    @Override
+    public void sleep(int seconds)
+    {
+        try
+        {
+            Thread.sleep(seconds * 1000);
+        }
+        catch (Exception ex)
+        {
+        }
+
     }
 
 }

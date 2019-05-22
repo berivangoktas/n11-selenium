@@ -11,6 +11,10 @@ import org.junit.rules.TestName;
 import org.junit.rules.TestRule;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 public abstract class AbstractWebTest extends AbstractSeleniumTest
 {
@@ -58,13 +62,11 @@ public abstract class AbstractWebTest extends AbstractSeleniumTest
 
         driver = driverManager.getDriver();
 
-        VideoRecorder.startRecording(testName.getMethodName(), configuration.getTakeAVideo());
     }
 
     @After
     public void tearDown() throws Exception
     {
-        VideoRecorder.stopRecording(configuration.getTakeAVideo());
 
         if (driver != null)
         {
@@ -79,4 +81,28 @@ public abstract class AbstractWebTest extends AbstractSeleniumTest
         return description.getMethodName() + " (" + description.getTestClass().getSimpleName() + ")";
     }
 
+    @Override
+    public boolean isDisplayed(WebElement element)
+    {
+        boolean isDisplayed = false;
+
+        try
+        {
+            sleep(DEFAULT_LARGE_SLEEP);
+            isDisplayed = element.isDisplayed();
+        }
+        catch (Exception ex)
+        {
+
+        }
+
+        return isDisplayed;
+    }
+
+    @Override
+    public boolean isTextDisplayedOnPage(String text)
+    {
+        List<WebElement> foundElements = driver.findElements(By.xpath("//*[contains(text(), '" + text + "')]"));
+        return foundElements.size() > 0;
+    }
 }

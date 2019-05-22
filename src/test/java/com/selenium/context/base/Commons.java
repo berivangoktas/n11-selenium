@@ -20,4 +20,10 @@ public interface Commons
 
     String getText(WebElement element);
 
+    void sleep(int second);
+
+    boolean isDisplayed(WebElement element);
+
+    boolean isTextDisplayedOnPage(String text);
+
 }

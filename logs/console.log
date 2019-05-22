@@ -19,3 +19,160 @@
 2019-05-22 13:10:35 INFO  AbstractWebTest:43 - ====> TEST FAILED {testBookSearch (SearchTest)}
 2019-05-22 13:10:35 INFO  AbstractWebTest:49 - ====> TEST FINISHED {testBookSearch (SearchTest)}
 2019-05-22 13:10:35 INFO  GenericApplicationContext:993 - Closing org.springframework.context.support.GenericApplicationContext@27f723: startup date [Wed May 22 13:10:06 EET 2019]; root of context hierarchy
+2019-05-22 15:12:19 INFO  DefaultTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-05-22 15:12:19 INFO  DefaultTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@26aa12dd, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3fd7a715, org.springframework.test.context.support.DirtiesContextTestExecutionListener@711f39f9]
+2019-05-22 15:12:19 INFO  GenericApplicationContext:590 - Refreshing org.springframework.context.support.GenericApplicationContext@29b5cd00: startup date [Wed May 22 15:12:19 AST 2019]; root of context hierarchy
+2019-05-22 15:12:19 INFO  AbstractWebTest:31 - ====> TEST STARTED {testMyRealEstateOfficeAddRequest (LoginTest)}
+2019-05-22 15:12:19 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : null
+2019-05-22 15:12:20 INFO  AbstractWebTest:43 - ====> TEST FAILED {testMyRealEstateOfficeAddRequest (LoginTest)}
+2019-05-22 15:12:20 INFO  AbstractWebTest:49 - ====> TEST FINISHED {testMyRealEstateOfficeAddRequest (LoginTest)}
+2019-05-22 15:12:20 INFO  GenericApplicationContext:993 - Closing org.springframework.context.support.GenericApplicationContext@29b5cd00: startup date [Wed May 22 15:12:19 AST 2019]; root of context hierarchy
+2019-05-22 15:14:17 INFO  DefaultTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-05-22 15:14:17 INFO  DefaultTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@26aa12dd, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3fd7a715, org.springframework.test.context.support.DirtiesContextTestExecutionListener@711f39f9]
+2019-05-22 15:14:17 INFO  GenericApplicationContext:590 - Refreshing org.springframework.context.support.GenericApplicationContext@29b5cd00: startup date [Wed May 22 15:14:17 AST 2019]; root of context hierarchy
+2019-05-22 15:14:18 INFO  AbstractWebTest:31 - ====> TEST STARTED {testMyRealEstateOfficeAddRequest (LoginTest)}
+2019-05-22 15:14:18 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 15:14:19 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 15:14:19 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> 8ba81d94330ad71497bbe89971cf318f
+2019-05-22 15:14:22 INFO  VideoRecorder:87 - Video not already taken
+2019-05-22 15:14:23 INFO  AbstractWebTest:37 - ====> TEST PASSED {testMyRealEstateOfficeAddRequest (LoginTest)}
+2019-05-22 15:14:23 INFO  AbstractWebTest:49 - ====> TEST FINISHED {testMyRealEstateOfficeAddRequest (LoginTest)}
+2019-05-22 15:14:23 INFO  GenericApplicationContext:993 - Closing org.springframework.context.support.GenericApplicationContext@29b5cd00: startup date [Wed May 22 15:14:17 AST 2019]; root of context hierarchy
+2019-05-22 16:25:01 INFO  AbstractWebTest:31 - ====> TEST STARTED {testLogin (LoginTest)}
+2019-05-22 16:25:01 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 16:25:03 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 16:25:03 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> 7c5e5fbcc766bea2668987bddaeaea27
+2019-05-22 16:25:15 INFO  AbstractWebTest:43 - ====> TEST FAILED {testLogin (LoginTest)}
+2019-05-22 16:25:15 INFO  AbstractWebTest:49 - ====> TEST FINISHED {testLogin (LoginTest)}
+2019-05-22 16:28:16 INFO  AbstractWebTest:32 - ====> TEST STARTED {testLogin (LoginTest)}
+2019-05-22 16:28:16 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 16:28:18 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 16:28:18 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> 19edb4895064c082dbcb2fb08ce04ab3
+2019-05-22 16:28:39 INFO  AbstractWebTest:44 - ====> TEST FAILED {testLogin (LoginTest)}
+2019-05-22 16:28:39 INFO  AbstractWebTest:50 - ====> TEST FINISHED {testLogin (LoginTest)}
+2019-05-22 16:28:56 INFO  AbstractWebTest:32 - ====> TEST STARTED {testLogin (LoginTest)}
+2019-05-22 16:28:56 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 16:28:57 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 16:28:57 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> c59cbbeb779e56a2a796b689613699c7
+2019-05-22 16:29:55 INFO  AbstractWebTest:44 - ====> TEST FAILED {testLogin (LoginTest)}
+2019-05-22 16:29:55 INFO  AbstractWebTest:50 - ====> TEST FINISHED {testLogin (LoginTest)}
+2019-05-22 16:30:11 INFO  AbstractWebTest:32 - ====> TEST STARTED {testLogin (LoginTest)}
+2019-05-22 16:30:11 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 16:30:13 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 16:30:13 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> 1671f20492d2d7d53f91e71c4383b24c
+2019-05-22 16:30:31 INFO  AbstractWebTest:38 - ====> TEST PASSED {testLogin (LoginTest)}
+2019-05-22 16:30:31 INFO  AbstractWebTest:50 - ====> TEST FINISHED {testLogin (LoginTest)}
+2019-05-22 16:32:38 INFO  AbstractWebTest:32 - ====> TEST STARTED {testLogin (LoginTest)}
+2019-05-22 16:32:38 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 16:32:39 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 16:32:39 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> 52b77d63e18f2fadac5896d9649f84b8
+2019-05-22 16:32:46 INFO  AbstractWebTest:38 - ====> TEST PASSED {testLogin (LoginTest)}
+2019-05-22 16:32:46 INFO  AbstractWebTest:50 - ====> TEST FINISHED {testLogin (LoginTest)}
+2019-05-22 16:40:39 INFO  AbstractWebTest:32 - ====> TEST STARTED {testLogin (LoginTest)}
+2019-05-22 16:40:39 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 16:40:40 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 16:40:40 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> 7e64767c00052f2713f9bf80b4db6abb
+2019-05-22 16:41:01 INFO  AbstractWebTest:44 - ====> TEST FAILED {testLogin (LoginTest)}
+2019-05-22 16:41:01 INFO  AbstractWebTest:50 - ====> TEST FINISHED {testLogin (LoginTest)}
+2019-05-22 16:41:54 INFO  AbstractWebTest:32 - ====> TEST STARTED {testLogin (LoginTest)}
+2019-05-22 16:41:54 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 16:41:56 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 16:41:56 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> b6e8bf38c7a8512d796e23a5533d12a5
+2019-05-22 16:42:03 INFO  AbstractWebTest:38 - ====> TEST PASSED {testLogin (LoginTest)}
+2019-05-22 16:42:03 INFO  AbstractWebTest:50 - ====> TEST FINISHED {testLogin (LoginTest)}
+2019-05-22 16:48:17 INFO  AbstractWebTest:32 - ====> TEST STARTED {testLogin (LoginTest)}
+2019-05-22 16:48:17 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 16:48:19 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 16:48:19 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> d5fee4471c863f13151cfdf2f8104488
+2019-05-22 16:49:17 INFO  AbstractWebTest:32 - ====> TEST STARTED {testLogin (LoginTest)}
+2019-05-22 16:49:17 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 16:49:18 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 16:49:18 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> edc90b08587f98c54ce850989dc6347d
+2019-05-22 16:49:59 INFO  AbstractWebTest:38 - ====> TEST PASSED {testLogin (LoginTest)}
+2019-05-22 16:49:59 INFO  AbstractWebTest:50 - ====> TEST FINISHED {testLogin (LoginTest)}
+2019-05-22 16:50:35 INFO  AbstractWebTest:32 - ====> TEST STARTED {testLogin (LoginTest)}
+2019-05-22 16:50:35 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 16:50:37 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 16:50:37 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> 8b5bbd1b7109874c69b890a5d507f0df
+2019-05-22 16:50:49 INFO  AbstractWebTest:44 - ====> TEST FAILED {testLogin (LoginTest)}
+2019-05-22 16:50:49 INFO  AbstractWebTest:50 - ====> TEST FINISHED {testLogin (LoginTest)}
+2019-05-22 16:53:15 INFO  AbstractWebTest:32 - ====> TEST STARTED {testLogin (LoginTest)}
+2019-05-22 16:53:15 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 16:53:17 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 16:53:17 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> 1101326cb84ed9ff06f655bcbd49bda9
+2019-05-22 16:53:25 INFO  AbstractWebTest:44 - ====> TEST FAILED {testLogin (LoginTest)}
+2019-05-22 16:53:25 INFO  AbstractWebTest:50 - ====> TEST FINISHED {testLogin (LoginTest)}
+2019-05-22 16:53:37 INFO  AbstractWebTest:32 - ====> TEST STARTED {testLogin (LoginTest)}
+2019-05-22 16:53:37 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 16:53:39 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 16:53:39 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> eb7b49a001fc4958a6e36296467c531b
+2019-05-22 16:56:30 INFO  AbstractWebTest:35 - ====> TEST STARTED {testLogin (LoginTest)}
+2019-05-22 16:56:30 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 16:56:31 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 16:56:31 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> 38ee8bfb7f3115ec977987cad8afb610
+2019-05-22 16:56:50 INFO  AbstractWebTest:47 - ====> TEST FAILED {testLogin (LoginTest)}
+2019-05-22 16:56:50 INFO  AbstractWebTest:53 - ====> TEST FINISHED {testLogin (LoginTest)}
+2019-05-22 16:57:05 INFO  AbstractWebTest:35 - ====> TEST STARTED {testLogin (LoginTest)}
+2019-05-22 16:57:05 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 16:57:07 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 16:57:07 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> 4458eb0c98cd47f4e09ba8ec8a892316
+2019-05-22 16:58:01 INFO  AbstractWebTest:35 - ====> TEST STARTED {testLogin (LoginTest)}
+2019-05-22 16:58:01 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 16:58:05 INFO  AbstractWebTest:35 - ====> TEST STARTED {testLogin (LoginTest)}
+2019-05-22 16:58:05 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 16:58:07 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 16:58:07 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> de8578024b1e0ecfe275f6148f9a7c5b
+2019-05-22 16:58:25 INFO  AbstractWebTest:47 - ====> TEST FAILED {testLogin (LoginTest)}
+2019-05-22 16:58:25 INFO  AbstractWebTest:53 - ====> TEST FINISHED {testLogin (LoginTest)}
+2019-05-22 16:58:38 INFO  AbstractWebTest:35 - ====> TEST STARTED {testLogin (LoginTest)}
+2019-05-22 16:58:38 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 16:58:39 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 16:58:39 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> 3e7e313b1a3d3358a263c55ec24b3209
+2019-05-22 17:00:21 INFO  AbstractWebTest:35 - ====> TEST STARTED {testLogin (LoginTest)}
+2019-05-22 17:00:21 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 17:00:23 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 17:00:23 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> 16a7262945e0673d455b6f5afc15b722
+2019-05-22 17:01:06 INFO  AbstractWebTest:41 - ====> TEST PASSED {testLogin (LoginTest)}
+2019-05-22 17:01:06 INFO  AbstractWebTest:53 - ====> TEST FINISHED {testLogin (LoginTest)}
+2019-05-22 17:13:46 INFO  AbstractWebTest:47 - ====> TEST FAILED {testLogin (LoginTest)}
+2019-05-22 17:13:46 INFO  AbstractWebTest:53 - ====> TEST FINISHED {testLogin (LoginTest)}
+2019-05-22 18:25:16 INFO  AbstractWebTest:35 - ====> TEST STARTED {testX (LoginTest)}
+2019-05-22 18:25:16 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : null
+2019-05-22 18:25:17 INFO  AbstractWebTest:47 - ====> TEST FAILED {testX (LoginTest)}
+2019-05-22 18:25:17 INFO  AbstractWebTest:53 - ====> TEST FINISHED {testX (LoginTest)}
+2019-05-22 18:25:41 INFO  AbstractWebTest:35 - ====> TEST STARTED {testX (LoginTest)}
+2019-05-22 18:25:41 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 18:25:43 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 18:25:43 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> ba05e963218fb9d2ce8e8a9839a7c431
+2019-05-22 18:25:50 INFO  AbstractWebTest:41 - ====> TEST PASSED {testX (LoginTest)}
+2019-05-22 18:25:50 INFO  AbstractWebTest:53 - ====> TEST FINISHED {testX (LoginTest)}
+2019-05-22 18:26:58 INFO  AbstractWebTest:35 - ====> TEST STARTED {testY (LoginTest)}
+2019-05-22 18:26:58 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 18:26:59 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 18:26:59 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> cf7ffff6bb417ce27217a4432c920a64
+2019-05-22 18:27:06 INFO  AbstractWebTest:41 - ====> TEST PASSED {testY (LoginTest)}
+2019-05-22 18:27:06 INFO  AbstractWebTest:53 - ====> TEST FINISHED {testY (LoginTest)}
+2019-05-22 18:28:31 INFO  AbstractWebTest:35 - ====> TEST STARTED {testLoginWithEmptyUserNameAndPassword (LoginTest)}
+2019-05-22 18:28:31 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 18:28:33 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 18:28:33 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> 3a8935db6018d295ada4e8ccd3fd14fe
+2019-05-22 18:28:39 INFO  AbstractWebTest:47 - ====> TEST FAILED {testLoginWithEmptyUserNameAndPassword (LoginTest)}
+2019-05-22 18:28:39 INFO  AbstractWebTest:53 - ====> TEST FINISHED {testLoginWithEmptyUserNameAndPassword (LoginTest)}
+2019-05-22 18:39:28 INFO  AbstractWebTest:35 - ====> TEST STARTED {testLoginWithEmptyUserNameAndPassword (LoginTest)}
+2019-05-22 18:39:28 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 18:39:30 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 18:39:30 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> aad9a0a545cc6468624d58d168078911
+2019-05-22 18:39:36 INFO  AbstractWebTest:47 - ====> TEST FAILED {testLoginWithEmptyUserNameAndPassword (LoginTest)}
+2019-05-22 18:39:36 INFO  AbstractWebTest:53 - ====> TEST FINISHED {testLoginWithEmptyUserNameAndPassword (LoginTest)}
+2019-05-22 18:40:39 INFO  AbstractWebTest:35 - ====> TEST STARTED {testLoginWithEmptyUserNameAndPassword (LoginTest)}
+2019-05-22 18:40:39 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 18:40:41 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 18:40:41 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> 89f4e0836e8c58b7e88b2a1e3c3e2a32
+2019-05-22 18:41:07 INFO  AbstractWebTest:41 - ====> TEST PASSED {testLoginWithEmptyUserNameAndPassword (LoginTest)}
+2019-05-22 18:41:07 INFO  AbstractWebTest:53 - ====> TEST FINISHED {testLoginWithEmptyUserNameAndPassword (LoginTest)}
+2019-05-22 18:41:35 INFO  AbstractWebTest:35 - ====> TEST STARTED {testLoginWithEmptyUserNameAndPassword (LoginTest)}
+2019-05-22 18:41:35 INFO  DriverWebTestFactory:18 - BrowserType (DriverWebTestFactory) : chrome
+2019-05-22 18:41:37 INFO  ChromeDriverManagerWeb:35 - =================================================================
+2019-05-22 18:41:37 INFO  ChromeDriverManagerWeb:36 - =====> This Execute Session ID --> 7d228763e90b59cfcb53d8e201c7e41c
+2019-05-22 18:41:42 INFO  AbstractWebTest:41 - ====> TEST PASSED {testLoginWithEmptyUserNameAndPassword (LoginTest)}
+2019-05-22 18:41:42 INFO  AbstractWebTest:53 - ====> TEST FINISHED {testLoginWithEmptyUserNameAndPassword (LoginTest)}

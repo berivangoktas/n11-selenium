@@ -5,6 +5,8 @@ import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.charset.Charset;
 import java.util.Properties;
 
 public class Configuration
@@ -14,9 +16,6 @@ public class Configuration
     private Properties configProps = new Properties();
 
     private String browserType;
-    private Boolean takeAVideo;
-    private String galenReportPath;
-    private String harFilePath;
     private Integer pageLoadTimeout;
     private Integer waitLoadTimeout;
     private Integer implicitlyWait;
@@ -25,15 +24,18 @@ public class Configuration
     private String macFirefoxDriver;
     private String windowsFirefoxDriver;
     private String testResultReport;
+    private String testEmail;
+    private String testPassword;
+    private String testUserName;
+    private String testWrongEmail;
+    private String testWrongPassword;
 
     public Configuration() throws IOException
     {
         loadConfigProperties();
 
         this.browserType = System.getProperties().getProperty("browser.type");
-        this.takeAVideo = readBooleanParameter("take.a.video");
-        this.galenReportPath = configProps.getProperty("galen.report.path");
-        this.harFilePath = configProps.getProperty("har.file.path");
+
         this.pageLoadTimeout = Integer.valueOf(configProps.getProperty("page.load.timeout"));
         this.waitLoadTimeout = Integer.valueOf(configProps.getProperty("wait.timeout.seconds"));
         this.implicitlyWait = Integer.valueOf(configProps.getProperty("implicitly.wait"));
@@ -42,6 +44,12 @@ public class Configuration
         this.testResultReport = configProps.getProperty("test.result.report");
         this.macFirefoxDriver = configProps.getProperty("mac.firefox.driver");
         this.windowsFirefoxDriver = configProps.getProperty("windows.firefox.driver");
+
+        this.testEmail = configProps.getProperty("test.mail.address");
+        this.testPassword = configProps.getProperty("test.mail.address.password");
+        this.testUserName = configProps.getProperty("test.user.userName");
+        this.testWrongEmail = configProps.getProperty("test.mail.wrong.address");
+        this.testWrongPassword = configProps.getProperty("test.mail.address.wrong.password");
     }
 
     private void loadConfigProperties() throws IOException
@@ -49,27 +57,7 @@ public class Configuration
         String configFile = "config.properties";
         InputStream in = ClassLoader.getSystemResourceAsStream(configFile);
 
-        configProps.load(in);
-    }
-
-    private boolean readBooleanParameter(String propertyKey)
-    {
-        boolean defaultValue = false;
-        String propertyValue = System.getProperties().getProperty(propertyKey);
-
-        if (StringUtils.isNotBlank(propertyValue))
-        {
-            try
-            {
-                defaultValue = Boolean.valueOf(propertyValue);
-            }
-            catch (Exception e)
-            {
-                System.out.println(propertyKey + " : default (false)");
-            }
-        }
-
-        return defaultValue;
+        configProps.load(new InputStreamReader(in, Charset.forName("UTF-8")));
     }
 
     public String getBrowserType()
@@ -80,36 +68,6 @@ public class Configuration
     public void setBrowserType(String browserType)
     {
         this.browserType = browserType;
-    }
-
-    public Boolean getTakeAVideo()
-    {
-        return takeAVideo;
-    }
-
-    public void setTakeAVideo(Boolean takeAVideo)
-    {
-        this.takeAVideo = takeAVideo;
-    }
-
-    public String getGalenReportPath()
-    {
-        return galenReportPath;
-    }
-
-    public void setGalenReportPath(String galenReportPath)
-    {
-        this.galenReportPath = galenReportPath;
-    }
-
-    public String getHarFilePath()
-    {
-        return harFilePath;
-    }
-
-    public void setHarFilePath(String harFilePath)
-    {
-        this.harFilePath = harFilePath;
     }
 
     public Integer getPageLoadTimeout()
@@ -190,5 +148,55 @@ public class Configuration
     public void setWindowsFirefoxDriver(String windowsFirefoxDriver)
     {
         this.windowsFirefoxDriver = windowsFirefoxDriver;
+    }
+
+    public String getTestEmail()
+    {
+        return testEmail;
+    }
+
+    public void setTestEmail(String testEmail)
+    {
+        this.testEmail = testEmail;
+    }
+
+    public String getTestPassword()
+    {
+        return testPassword;
+    }
+
+    public void setTestPassword(String testPassword)
+    {
+        this.testPassword = testPassword;
+    }
+
+    public String getTestUserName()
+    {
+        return testUserName;
+    }
+
+    public void setTestUserName(String testUserName)
+    {
+        this.testUserName = testUserName;
+    }
+
+    public String getTestWrongEmail()
+    {
+        return testWrongEmail;
+    }
+
+    public void setTestWrongEmail(String testWrongEmail)
+    {
+        this.testWrongEmail = testWrongEmail;
+    }
+
+    public String getTestWrongPassword()
+    {
+        return testWrongPassword;
+    }
+
+    public void setTestWrongPassword(String testWrongPassword)
+    {
+        this.testWrongPassword = testWrongPassword;
     }
 }

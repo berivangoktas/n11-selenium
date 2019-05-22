@@ -11,7 +11,7 @@
 # Parameters
 
 -Dbrowser.type=firefox
--Dtake.a.video=true
+
 
 # --> Serial Test Execute 
 

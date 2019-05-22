@@ -1,10 +1,9 @@
 package com.selenium.context.manager;
 
-import com.selenium.AbstractTest;
 import com.selenium.context.Configuration;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-public abstract class DriverManager extends AbstractTest
+public abstract class DriverManager
 {
     protected static RemoteWebDriver driver;
     protected static Configuration configuration;
